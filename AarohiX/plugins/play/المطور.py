@@ -27,12 +27,12 @@ async def mmmezat(client, message):
     )
 
 @app.on_message(
-    command(["المطور", "السورس", "المصنع"])
+    command(["المطور", "سورس", "السورس"])
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://te.legra.ph/file/08cec0a2a844713e1624a.jpg",
-        caption="~ Team freedom \n~ Dav Source",
+        photo="https://t.me/TTTamSsnap/21",
+        caption="𝙏𝘶𝘰𝙁𝘦 .\n~ Dav Snap",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
